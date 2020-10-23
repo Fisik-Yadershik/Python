@@ -1,0 +1,7 @@
+a = int(input("Первое число"))
+c = int(input("Второе число"))
+d = int(input("Третье число"))
+e = int(input("Четвёртое число"))
+l = (a+c)/(d+e)
+l = float('{:.2f}'.format(l))
+print(l)
